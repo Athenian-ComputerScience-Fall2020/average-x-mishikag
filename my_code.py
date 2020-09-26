@@ -14,11 +14,11 @@ if __name__ == '__main__':
     user_list = [] # start with an empty list
     # Write a loop to allow the user to input the values to be averaged
     num=int(input("how many numbers do you want the average of "))
-    smallest = 1
-    while num != num:
+    s = 1
+    while num >= s:
         user_input = int(input("enter a number "))
         user_list.append(user_input)
-        smallest +=1
+        s +=1
     print(avg(user_list))
 
 #DIFF WAY
